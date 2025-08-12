@@ -1,10 +1,7 @@
 ## Hello. 
 
-I keep trying.
-I'll prove it with this page!!
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=delay-100&layout=compact)](https://github.com/Jooahyeon)
 
 
-**Jooahyeon/Jooahyeon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jooahyeon&hide=contribs,prs&show_icons=true&theme=테마)
-
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jooahyeon&hide=contribs,prs&show_icons=true&theme=테마) 
