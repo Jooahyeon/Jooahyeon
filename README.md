@@ -10,11 +10,13 @@
 </div>
 
 <div align="center">
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Jooahyeon&utm_content=farm">
-<img
-  src="https://render.gitanimals.org/farms/Jooahyeon"
-  width="600"
-  height="300"
-/>
+
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Jooahyeon&utm_content=line">
+  <img
+    src="https://render.gitanimals.org/lines/Jooahyeon?pet-id=743114415578658078"
+    width="600"
+    height="120"
+  />
 </a>
+  
 </div>
