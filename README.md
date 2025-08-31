@@ -40,29 +40,27 @@ Collaboration:
 ## 3) 프로젝트 (Projects)
 
 ### 🚀 ERPIZZA — HR/전자결재 시스템
-- **기간**: 2025.05 ~ 2025.03  
+- **기간**: 2025.05 ~ 2025.06  
 - **역할**: 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭, SSE 알림)  
 - **기술**: Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA, S3 Presigned URL  
 - **핵심 기능**
   - 조직도·직급 기반 **결재선 자동매칭(ApprovalLineAutoMatchService)**  
   - Draft 상세 조회 및 상태 기반 버튼 활성화, SSE 알림, 첨부파일 S3 다운로드  
   - Ag-Grid 기반 문서함 필터/정렬
-- **성과/지표(예시)**
-  - 결재함 조회 API **P95 응답 820ms → 540ms (−34%)**: N+1 제거, 인덱스 추가, 페이징 최적화  
+- **성과/지표**
+  - 결재함 조회 API 인덱스 추가, 페이징 최적화  
   - SQL 튜닝으로 불필요 조인 2건 제거, 캐시 도입으로 재호출 감소
 - **Repo**
   - BE: https://github.com/TEAM-DDIS/be14-fin-DDIS-BE- *(현재 개인 포크에서 리팩토링 중)*
-  - FE:
+  - FE: https://github.com/Jooahyeon/be14-fin-DDIS-FE.git
 
-<details>
 
-</details>
 
 ---
 
 ## 4) 성과 & 개선 경험 (Achievements)
 - **성능개선**: 결재함 조회 API P95 −34%, 주요 쿼리 실행시간 −40%  
-- **협업개선**: GitHub Flow/PR 템플릿 도입, 리뷰 라운드 정례화  
+- **협업개선**: GitHub Flow/PR 템플릿 도입
 - **품질개선**: 중복 서비스 로직 유틸화, 예외/로깅 일원화, DTO 경량화
 
 ---
@@ -72,7 +70,6 @@ Collaboration:
 - 블로그: [*(기술블로그)*](https://dkgus0496.tistory.com/)
 - 노 션: [*(개발공부용노션)*](https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link)
 - 포트폴리오: [*(Portfolio)*](https://jooahyeon.github.io/)
-
 
 ---
 
