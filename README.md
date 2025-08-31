@@ -40,7 +40,7 @@ Collaboration:
 ## 3) 프로젝트 (Projects)
 
 ### 🚀 ERPIZZA — HR/전자결재 시스템
-- **기간**: 2025.02 ~ 2025.03  
+- **기간**: 2025.05 ~ 2025.03  
 - **역할**: 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭, SSE 알림)  
 - **기술**: Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA, S3 Presigned URL  
 - **핵심 기능**
@@ -52,6 +52,7 @@ Collaboration:
   - SQL 튜닝으로 불필요 조인 2건 제거, 캐시 도입으로 재호출 감소
 - **Repo**
   - BE: https://github.com/TEAM-DDIS/be14-fin-DDIS-BE- *(현재 개인 포크에서 리팩토링 중)*
+  - FE:
 
 <details>
 
