@@ -1,115 +1,90 @@
-
-<!-- 프로필 상단 배너/한 줄 소개 -->
+<!-- 제목 & 한 줄 소개 -->
 <h2 align="center">👋 배움을 엔진으로 삼는 백엔드 개발자 지망생, 주아현입니다.</h2>
 
 ---
 
 ## 1) 소개 (About Me)
-- 사람에게 의미있는 서비스를 개발하고자 합니다.
-- 좋은 서비스를 만들기 위해 소통하는 방식의 협업을 좋아합니다.
-- **한화 BEYOND SW 부트캠프**에서 4개 미니 프로젝트와 ERPIZZA 최종 프로젝트를 경험했습니다.  
-> 현재 목표: 신입 백엔드 개발자 취업 및 서비스 운영 경험 확장
+- 사람에게 의미 있는 서비스를 만들고 싶습니다.
+- 소통 중심의 협업과 코드 품질 개선을 중요하게 생각합니다.
+- 한화 BEYOND SW 부트캠프에서 4개 미니 프로젝트와 ERPIZZA 최종 프로젝트 수행  
+> 목표: 신입 백엔드 개발자 취업 및 서비스 운영 경험 확장
 
 ---
 
 ## 2) 기술 스택 (Tech Stack)
-Backend:
-<img src="https://img.shields.io/badge/Java-17+-red" />
-<img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen" />
-<img src="https://img.shields.io/badge/JPA-ORM-orange" />
-<img src="https://img.shields.io/badge/MyBatis-Mapper-blue" />
-<br>
 
-Frontend:
-<img src="https://img.shields.io/badge/Vue.js-3-41B883" />
-<img src="https://img.shields.io/badge/Composition%20API-v3-important" />
-<br>
-
-DB:  <img src="https://img.shields.io/badge/MariaDB-10.x-blue" />
-<img src="https://img.shields.io/badge/MySQL-8.x-4479A1" />
-<br>
-
-Collaboration:
-<img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white" />
-<br>
+| 분야 | 기술 |
+|------|------|
+| **Backend** | <img src="https://img.shields.io/badge/Java-17+-red"/> <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen"/> <img src="https://img.shields.io/badge/JPA-ORM-orange"/> <img src="https://img.shields.io/badge/MyBatis-Mapper-blue"/> |
+| **Frontend** | <img src="https://img.shields.io/badge/Vue.js-3-41B883"/> <img src="https://img.shields.io/badge/Composition%20API-v3-informational"/> |
+| **DB** | <img src="https://img.shields.io/badge/MariaDB-10.x-blue"/> <img src="https://img.shields.io/badge/MySQL-8.x-4479A1"/> |
+| **Collaboration** | <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white"/> |
 
 ---
 
 ## 3) 프로젝트 (Projects)
 
-### 🚀 ERPIZZA — HR/전자결재 시스템
-- **기간**: 2025.05 ~ 2025.06  
-- **역할**: 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭)  
-- **기술**: Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA
-- **핵심 기능**
-  - 조직도·직급 기반 **결재선 자동매칭(ApprovalLineAutoMatchService)**  
-  - Draft 상세 조회 및 상태 기반 버튼 활성화, SSE 알림, 첨부파일 S3 다운로드  
-  - Ag-Grid 기반 문서함 필터/정렬
-- **성과/지표**
-  - 결재함 조회 API 인덱스 추가, 페이징 최적화  
-  - SQL 튜닝으로 불필요 조인 2건 제거, 캐시 도입으로 재호출 감소
-- **Repo**
-  - BE: https://github.com/TEAM-DDIS/be14-fin-DDIS-BE- *(현재 개인 포크에서 리팩토링 중)*
-  - FE: https://github.com/Jooahyeon/be14-fin-DDIS-FE.git
+<details>
+  <summary><b>🚀 ERPIZZA — ERP를 통한 효율적인 인사관리 시스템</b></summary>
 
+**프로젝트 요약**
 
+| 구분 | 내용 |
+|-----|-----|
+| **기간** | 2025.05 ~ 2025.06 |
+| **역할** | 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭) |
+| **기술** | Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA |
 
----
+**핵심 기능**
+- 조직도·직급 기반 결재선 자동매칭(ApprovalLineAutoMatchService)  
+- 결재문서 상세 조회(상태별 버튼), S3 Presigned URL 첨부 다운로드  
+- Ag-Grid 문서함 필터/정렬
 
-## 4) 성과 & 개선 경험 (Achievements)
-- **성능개선**: 결재함 조회 API P95 −34%, 주요 쿼리 실행시간 −40%  
-- **협업개선**: GitHub Flow/PR 템플릿 도입
-- **품질개선**: 중복 서비스 로직 유틸화, 예외/로깅 일원화, DTO 경량화
+**아키텍처**
+- **CQRS**: Query/Command 분리 → 조회 최적화, 쓰기 트랜잭션 명확화  
+- **모놀리스**: 소규모 팀의 개발/배포 단순화, 통합 테스트·리뷰 용이
 
----
+**성과/지표**
 
-## 5) 학습 & 기록 (Learning)
+| 항목 | 내용 |
+|-----|-----|
+| **REST API 구현** | 총 **13건** (전자결재·결재선·파일/S3 도메인) |
+| **성능/품질 개선** | 전자결재 API **쿼리 최적화 및 페이징 처리 적용**(대량 데이터 대응) |
 
-- 블로그: [*(기술블로그)*](https://dkgus0496.tistory.com/)
-- 노 션: [*(개발공부용노션)*](https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link)
-- 포트폴리오: [*(Portfolio)*](https://jooahyeon.github.io/)
+**Repo**
+- BE: <a href="https://github.com/TEAM-DDIS/be14-fin-DDIS-BE-">TEAM-DDIS/be14-fin-DDIS-BE-</a> (개인 포크 리팩토링 중)  
+- FE: <a href="https://github.com/Jooahyeon/be14-fin-DDIS-FE">Jooahyeon/be14-fin-DDIS-FE</a>
 
----
-
-## 6) 자격증 (Certificates)
-- **정보처리기사(실기 준비 중)** — 시험일: 2025-11
+</details>
 
 ---
 
-## 7) 연락처 (Contact)
-- Email: hygg0408e@gmail.com
+## 4) 학습 & 기록 (Learning)
+- 블로그: <a href="https://dkgus0496.tistory.com/">Tistory</a>  
+- 노션: <a href="https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link">Study Notes</a>  
+- 포트폴리오: <a href="https://jooahyeon.github.io/">GitHub Pages</a>
 
 ---
 
-## 8) 깃허브 통계 (GitHub Stats)
-<!-- username만 변경 -->
-<p align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jooahyeon&theme=dracula" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jooahyeon&theme=dracula" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-used-language?username=Jooahyeon&theme=dracula" />
-</p>
+## 5) 자격증 (Certificates)
+- 정보처리기사 (실기 준비 중) — 2025-11 예정
 
 ---
 
+## 6) 연락처 (Contact)
+- Email: <a href="mailto:hygg0408e@gmail.com">hygg0408e@gmail.com</a>
+
+---
+
+<!-- GitHub 통계: 두 카드 나란히 -->
 <div align="center">
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=delay-100&layout=compact)](https://github.com/Jooahyeon)
-
-
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jooahyeon&hide=contribs,prs&show_icons=true&theme=테마) 
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jooahyeon&layout=compact&theme=tokyonight" alt="Top Langs"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Jooahyeon&hide=contribs,prs&show_icons=true&theme=tokyonight" alt="GitHub stats"/>
 </div>
 
+<!-- gitanimals -->
 <div align="center">
-
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Jooahyeon&utm_content=line">
-  <img
-    src="https://render.gitanimals.org/lines/Jooahyeon?pet-id=743114415578658078"
-    width="600"
-    height="120"
-  />
-</a>
-  
+  <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Jooahyeon&utm_content=line">
+    <img src="https://render.gitanimals.org/lines/Jooahyeon?pet-id=743114415578658078" width="600" height="120" alt="gitanimals"/>
+  </a>
 </div>
