@@ -41,8 +41,8 @@ Collaboration:
 
 ### 🚀 ERPIZZA — HR/전자결재 시스템
 - **기간**: 2025.05 ~ 2025.06  
-- **역할**: 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭, SSE 알림)  
-- **기술**: Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA, S3 Presigned URL  
+- **역할**: 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭)  
+- **기술**: Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA
 - **핵심 기능**
   - 조직도·직급 기반 **결재선 자동매칭(ApprovalLineAutoMatchService)**  
   - Draft 상세 조회 및 상태 기반 버튼 활성화, SSE 알림, 첨부파일 S3 다운로드  
