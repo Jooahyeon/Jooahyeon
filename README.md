@@ -80,45 +80,11 @@
 
 | 항목 | 내용 |
 |-----|-----|
-| **REST API 구현** | 총 **13건** (전자결재·결재선·파일/S3 도메인) |
-| **성능/품질 개선** | 전자결재 API **쿼리 최적화 및 페이징 처리 적용**(대량 데이터 대응) |
+| **REST API 구현** | 총 **12건** (모집게시글 및 신청 관련 API) |
 
 **Repo**
-- BE: 
-- FE:
-</details>
-
-<details>
-  <summary><b>[Sub] 개발자 맞춤형 커뮤니티 블로그 플랫폼 ‘MarkTory’ </b></summary>
-
-**프로젝트 요약**
-
-| 구분 | 내용 |
-|-----|-----|
-| **기간** | 2025.05 ~ 2025.06 |
-| **역할** | 백엔드 핵심 개발 (전자결재 모듈, 결재선 자동매칭) |
-| **기술** | Java, Spring Boot, Vue 3, MariaDB, MyBatis/JPA |
-
-**핵심 기능**
-- 조직도·직급 기반 결재선 자동매칭(ApprovalLineAutoMatchService)  
-- 결재문서 상세 조회(상태별 버튼), S3 Presigned URL 첨부 다운로드  
-- Ag-Grid 문서함 필터/정렬
-
-**아키텍처**
-- **CQRS**: Query/Command 분리 → 조회 최적화, 쓰기 트랜잭션 명확화  
-- **모놀리스**: 소규모 팀의 개발/배포 단순화, 통합 테스트·리뷰 용이
-
-**성과/지표**
-
-| 항목 | 내용 |
-|-----|-----|
-| **REST API 구현** | 총 **13건** (전자결재·결재선·파일/S3 도메인) |
-| **성능/품질 개선** | 전자결재 API **쿼리 최적화 및 페이징 처리 적용**(대량 데이터 대응) |
-
-**Repo**
-- BE: <a href="https://github.com/TEAM-DDIS/be14-fin-DDIS-BE-">TEAM-DDIS/be14-fin-DDIS-BE-</a> (개인 포크 리팩토링 중)  
-- FE: <a href="https://github.com/Jooahyeon/be14-fin-DDIS-FE">Jooahyeon/be14-fin-DDIS-FE</a>
-
+- BE:  <a href="https://github.com/Jooahyeon/be14-4th-DDIS-ToDoDduDu-BE-.git">TEAM-DDIS/be14-4th-DDIS-BE-</a>     
+- FE:  <a href="https://github.com/TEAM-DDIS/be14-4th-DDIS-ToDoDduDu-FE.git">TEAM-DDIS/be14-4th-DDIS-FE-</a>
 </details>
 
 ---
