@@ -92,7 +92,6 @@
 ## 4) 학습 & 기록 (Learning)
 - 블로그: <a href="https://dkgus0496.tistory.com/">Tistory</a>  
 - 노션: <a href="https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link">Study Notes</a>  
-- 포트폴리오: <a href="https://jooahyeon.github.io/">GitHub Pages</a>
 
 ---
 
