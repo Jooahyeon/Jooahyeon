@@ -52,7 +52,7 @@
 | **성능/품질 개선** | 전자결재 API **쿼리 최적화 및 페이징 처리 적용**(대량 데이터 대응) |
 
 **Repo**
-- BE: <a href="https://github.com/TEAM-DDIS/be14-fin-DDIS-BE-">TEAM-DDIS/be14-fin-DDIS-BE-</a> (개인 포크 리팩토링 중)  
+- BE: <a href="https://github.com/Jooahyeon/be14-fin-DDIS-BE-.git">TEAM-DDIS/be14-fin-DDIS-BE-</a>
 - FE: <a href="https://github.com/Jooahyeon/be14-fin-DDIS-FE">Jooahyeon/be14-fin-DDIS-FE</a>
 
 </details>
