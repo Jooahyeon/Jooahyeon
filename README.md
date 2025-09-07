@@ -22,10 +22,10 @@
 
 ---
 
-## 3) 프로젝트 (Projects)
+## 3-1) 프로젝트 (Projects)
 
 <details>
-  <summary><b>[Main] ERPIZZA — ERP를 통한 효율적인 인사관리 시스템</b></summary>
+  <summary><b>ERPIZZA — ERP를 통한 효율적인 인사관리 시스템</b></summary>
 
 **프로젝트 요약**
 
@@ -58,7 +58,7 @@
 </details>
 
 <details>
-  <summary><b>[Sub] 공동 목표 실천 협업형 To-do 플랫폼 ‘ToDo ddu-du’</b></summary>
+  <summary><b> 공동 목표 실천 협업형 To-do 플랫폼 ‘ToDo ddu-du’</b></summary>
 
 **프로젝트 요약**
 
@@ -85,6 +85,15 @@
 **Repo**
 - BE:  <a href="https://github.com/Jooahyeon/be14-4th-DDIS-ToDoDduDu-BE-.git">TEAM-DDIS/be14-4th-DDIS-BE-</a>     
 - FE:  <a href="https://github.com/TEAM-DDIS/be14-4th-DDIS-ToDoDduDu-FE.git">TEAM-DDIS/be14-4th-DDIS-FE-</a>
+</details>
+
+## 3-2) 사이드 프로젝트 
+<details>
+  <summary><b> 개발자 맞춤형 커뮤니티 블로그 플랫폼 ‘MarkTory’ </b></summary>
+
+  **Repo**
+- BE:  <a href="https://github.com/be14-2nd-spring-is-coming/be14-3rd-springiscomming-marktory-FE.git">be14-2nd-spring-is-coming/be14-3rd-springiscomming-marktory-FE</a>     
+- FE:  <a href="https://github.com/be14-2nd-spring-is-coming/be14-2nd-springiscomming-marktory.git">be14-2nd-spring-is-coming/be14-3rd-springiscomming-marktory-BE-</a>
 </details>
 
 ---
