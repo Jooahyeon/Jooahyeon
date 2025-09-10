@@ -100,12 +100,13 @@
 
 ## 4) 학습 & 기록 (Learning)
 - 블로그: <a href="https://dkgus0496.tistory.com/">Tistory</a>  
-- 노션: <a href="https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link">Study Notes</a>  
+- 노션: <a href="https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link">Study Notes</a>
+- 포트폴리오 : <a href="https://jooahyeon.github.io/web-porfolio/"> portfolio </a>
 
 ---
 
 ## 5) 자격증 (Certificates)
-- 정보처리기사 (실기 준비 중) — 2025-11 예정
+- 정보처리기사 (필기 합) — 2025-11 실기 예정
 
 ---
 
