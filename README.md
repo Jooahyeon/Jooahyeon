@@ -3,7 +3,7 @@
 
 ---
 
-## 1) 소개 (About Me)
+## About Me
 - 사람에게 의미 있는 서비스를 만들고 싶습니다.
 - 소통 중심의 협업과 코드 품질 개선을 중요하게 생각합니다.
 - 한화 BEYOND SW 부트캠프에서 4개 미니 프로젝트와 ERPIZZA 최종 프로젝트 수행  
@@ -11,7 +11,7 @@
 
 ---
 
-## 2) 기술 스택 (Tech Stack)
+## Tech Stack
 
 | 분야 | 기술 |
 |------|------|
@@ -22,7 +22,7 @@
 
 ---
 
-## 3-1) 프로젝트 (Projects)
+## Projects
 
 <details>
   <summary><b>ERPIZZA — ERP를 통한 효율적인 인사관리 시스템</b></summary>
@@ -87,7 +87,7 @@
 - FE:  <a href="https://github.com/TEAM-DDIS/be14-4th-DDIS-ToDoDduDu-FE.git">TEAM-DDIS/be14-4th-DDIS-FE-</a>
 </details>
 
-## 3-2) 사이드 프로젝트 
+## Side Projects
 <details>
   <summary><b> 개발자 맞춤형 커뮤니티 블로그 플랫폼 ‘MarkTory’ </b></summary>
 
@@ -98,19 +98,19 @@
 
 ---
 
-## 4) 학습 & 기록 (Learning)
+## Learning
 - 블로그: <a href="https://dkgus0496.tistory.com/">Tistory</a>  
 - 노션: <a href="https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link">Study Notes</a>
 - 포트폴리오 : <a href="https://jooahyeon.github.io/web-porfolio/"> portfolio </a>
 
 ---
 
-## 5) 자격증 (Certificates)
+## Certificates
 - 정보처리기사 (필기 합) — 2025-11 실기 예정
 
 ---
 
-## 6) 연락처 (Contact)
+## Contact
 - Email: <a href="mailto:hygg0408e@gmail.com">hygg0408e@gmail.com</a>
 
 ---
