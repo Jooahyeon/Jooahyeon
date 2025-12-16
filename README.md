@@ -129,11 +129,6 @@
 
 ---
 
-## Certificates
-- 정보처리기사 (필기 합) 
-
----
-
 ## Contact
 - Email: <a href="mailto:hygg0408e@gmail.com">hygg0408e@gmail.com</a>
 
