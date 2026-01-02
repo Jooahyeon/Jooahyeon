@@ -41,8 +41,9 @@
 
 | 항목 | 내용 |
 |-----|-----|
-| **REST API 구현** | 총 **13건**  |
-| **성능/품질 개선** | 수치수치!!!!! |
+| **구조 개선 1** | 페이징 전략 도입 - 기존 page로 채팅방 목록을 조회하던 구조에서 Slice로 변경하여 목록 조회 최적화 |
+| **성능/품질 개선 2** | WebSocket 동시 연결 성공률 27% → 100% 개선 (10,000 CCU 기준) |
+
 
 **Repo**
 - BE: 
@@ -72,7 +73,6 @@
 
 | 항목 | 내용 |
 |-----|-----|
-| **REST API 구현** | 총 **13건** (전자결재·결재선·파일/S3 도메인) |
 | **성능/품질 개선** | 전자결재 API **쿼리 최적화 및 페이징 처리 적용**(대량 데이터 대응) |
 
 **Repo**
@@ -140,9 +140,4 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Jooahyeon&hide=contribs,prs&show_icons=true&theme=tokyonight" alt="GitHub stats"/>
 </div>
 
-<!-- gitanimals -->
-<div align="center">
-  <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=Jooahyeon&utm_content=line">
-    <img src="https://render.gitanimals.org/lines/Jooahyeon?pet-id=743114415578658078" width="600" height="120" alt="gitanimals"/>
-  </a>
 </div>
