@@ -28,12 +28,15 @@
 | **기술 스택** | Java, Spring Boot, React, MariaDB, JPA |
 
 **[성과 및 개선 지표]**
-* **목록 조회 최적화:** 기존 Page 방식에서 Slice 기반 페이징 전략으로 변경하여 채팅방 목록 조회 성능 개선
-* **연결 안정성 확보:** 커널 파라미터 최적화를 통해 **WebSocket 동시 연결 성공률 27% → 100% 개선** (10,000 CCU 기준)
+* **목록 조회 최적화:** 기존 Page 방식에서 Slice 기반 페이징 전략으로 변경하여 대량 데이터 조회 시 발생하는 부하를 줄이고 성능 개선
+* **연결 안정성 확보:** `ulimit`, `somaxconn` 등 커널 파라미터 최적화를 통해 **WebSocket 동시 연결 성공률 27% → 100% 개선** (10,000 CCU 기준)
+* **데이터베이스 병목 해결을 위한 구조 개선 시도 :**
+    * **문제 인식:** 메시지 전송 시마다 RDB의 chat_room 테이블을 직접 업데이트(UPDATE)하는 구조 확인(병목지점 파악)
+    * **해결 시도:** Redis Hash를 활용하여 채팅방 메타데이터(마지막 메시지 등)를 메모리 상에서 처리 시도했으나 연결 실패
+    * **배운점:** 고부하 환경에서의 RDB 한계를 경험 -> 캐시 계층을 활용한 성능 최적화와 데이터 정합성 유지를 위한 비동기 구조의 필요성 이해
 
 **[Repository]**
 - [Back-end GitHub](https://github.com/Jooahyeon/HomeSweetHome-backend.git) / [Front-end GitHub](https://github.com/PRF-JAKODH/HomeSweetHome-front.git)
-
 ---
 
 ### 2. ERPIZZA — 효율적인 인사관리 ERP 시스템
