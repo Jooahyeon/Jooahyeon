@@ -87,9 +87,9 @@
 ---
 
 ## 📚 Learning & Archives
+* **Resume:** [이력서 바로가기](https://www.notion.so/2d24a77d369b809c95f7c2eb37835ecb?source=copy_link)
 * **Blog:** [Tistory 바로가기](https://dkgus0496.tistory.com/)
 * **Study Note:** [Notion 바로가기](https://www.notion.so/16c4a77d369b807292f4dbac31fe1a5b?source=copy_link)
-* **Portfolio:** [Web Portfolio](https://jooahyeon.github.io/web-porfolio/)
 
 ## 📧 Contact
 * **Email:** [hygg0408e@gmail.com](mailto:hygg0408e@gmail.com)
